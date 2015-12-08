@@ -19,13 +19,13 @@ mkdir ~/.fonts
 ## Font Awesome
 FONTAWESOME="$TMP"/FontAwesome
 wget -O "$FONTAWESOME".zip https://github.com/FortAwesome/Font-Awesome/archive/v4.5.0.zip
-unzip "$FONTAWESOME".zip
+unzip "$FONTAWESOME".zip -d "$TMP"
 mv "$TMP"/Font-Awesome-4.5.0/*.ttf ~/.fonts/
 
 ## Yosemite San Francisco
 YOSEMITE="$TMP"/YosemiteSanFrancisco
 wget -O "$YOSEMITE".zip https://github.com/supermarin/YosemiteSanFranciscoFont/archive/master.zip
-unzip "$YOSEMITE".zip
+unzip "$YOSEMITE".zip -d "$TMP"
 mv "$TMP"/YosemiteSanFranciscoFont-master/*.ttf ~/.fonts/
 
 # THEMES
