@@ -23,5 +23,5 @@ wget -O YosemiteSanFrancisco.zip https://github.com/supermarin/YosemiteSanFranci
 unzip YosemiteSanFrancisco.zip
 cd YosemiteSanFranciscoFont-master
 mv *.ttf ~/.fonts/
-rm YosemiteSanFrancisco.zip
-rm -rf YosemiteSanFranciscoFont-master
+
+rm -rf ~/Downloads/dotfiles-installer
