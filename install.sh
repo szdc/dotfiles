@@ -17,7 +17,11 @@ mkdir ~/.fonts
 
 ## Font Awesome
 wget -O ~/.fonts/fontawesome-webfont.ttf https://github.com/FortAwesome/Font-Awesome/blob/master/fonts/fontawesome-webfont.ttf
-#wget -O fontawesome.zip https://github.com/FortAwesome/Font-Awesome/archive/v4.5.0.zip
-#unzip fontawesome.zip
-#rm fontawesome.zip
-#cp Font-Awesome-4.5.0/fonts/fontawesome-webfont.ttf ~/.fonts/
+
+## Yosemite San Francisco
+wget -O YosemiteSanFrancisco.zip https://github.com/supermarin/YosemiteSanFranciscoFont/archive/master.zip
+unzip YosemiteSanFrancisco.zip
+cd YosemiteSanFranciscoFont-master
+mv *.ttf ~/.fonts/
+rm YosemiteSanFrancisco.zip
+rm -rf YosemiteSanFranciscoFont-master
