@@ -30,5 +30,10 @@ sudo add-apt-repository -y ppa:ravefinity-project/ppa
 sudo apt-get update
 sudo apt-get install -y ambiance-flat-colors radiance-flat-colors vivacious-colors
 
+# FILES
+cp -R .config/* ~/.config/
+cp -R .i3/* ~/.i3/
+cp .gtkrc-2.0 ~/.gtkrc-2.0
+
 # CLEANUP
 rm -rf ~/Downloads/dotfiles-installer
