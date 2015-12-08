@@ -6,7 +6,7 @@
 
 # install apps
 sudo apt-get -y install \
-  git feh arandr
+  git feh arandr thunar
 
 mkdir ~/Downloads/dotfiles-installer
 cd ~/Downloads/dotfiles-installer
