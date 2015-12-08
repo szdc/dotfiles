@@ -20,7 +20,7 @@ mkdir ~/.fonts
 FONTAWESOME="$TMP"/FontAwesome
 wget -O "$FONTAWESOME".zip https://github.com/FortAwesome/Font-Awesome/archive/v4.5.0.zip
 unzip "$FONTAWESOME".zip -d "$TMP"
-mv "$TMP"/Font-Awesome-4.5.0/*.ttf ~/.fonts/
+mv "$TMP"/Font-Awesome-4.5.0/fonts/*.ttf ~/.fonts/
 
 ## Yosemite San Francisco
 YOSEMITE="$TMP"/YosemiteSanFrancisco
