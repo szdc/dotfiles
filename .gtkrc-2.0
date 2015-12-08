@@ -2,7 +2,7 @@
 # Any customization should be done in ~/.gtkrc-2.0.mine instead.
 
 include "/home/jack/.gtkrc-2.0.mine"
-gtk-theme-name="Paper"
+gtk-theme-name="Radiance-Flat-Blue-Spring"
 gtk-icon-theme-name="Vivacious-Light-Blue"
 gtk-font-name="System San Francisco Display 8"
 gtk-cursor-theme-name="DMZ-White"
