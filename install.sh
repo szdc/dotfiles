@@ -1,11 +1,11 @@
 #!/bin/bash
 
-# basic update
+# PRE-INSTALL UPDATE
 #sudo apt-get -y --force-yes update
 #sudo apt-get -y --force-yes upgrade
 
-# install apps
-sudo apt-get -y install \
+# GENERAL
+sudo apt-get install -y \
   git feh arandr thunar
 
 mkdir ~/Downloads/dotfiles-installer
@@ -24,4 +24,11 @@ unzip YosemiteSanFrancisco.zip
 cd YosemiteSanFranciscoFont-master
 mv *.ttf ~/.fonts/
 
+# THEMES
+## GTK Theme & Icon Theme
+sudo add-apt-repository -y ppa:ravefinity-project/ppa
+sudo apt-get update
+sudo apt-get install -y ambiance-flat-colors radiance-flat-colors vivacious-colors
+
+# CLEANUP
 rm -rf ~/Downloads/dotfiles-installer
