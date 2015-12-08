@@ -6,7 +6,7 @@
 
 # GENERAL
 sudo apt-get install -y \
-  git feh arandr thunar
+  git feh arandr thunar rofi compton i3blocks
 
 mkdir ~/Downloads/dotfiles-installer
 cd ~/Downloads/dotfiles-installer
