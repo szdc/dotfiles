@@ -6,4 +6,4 @@ sudo apt-get -y --force-yes upgrade
 
 # install apps
 sudo apt-get -y install \
-  feh
+  git feh
